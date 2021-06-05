@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="631.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cloudtp1.controllers.ShowVMsController">
+   <children>
+      <TableView fx:id="table_vms" layoutX="-2.0" layoutY="86.0" prefHeight="200.0" prefWidth="631.0">
+        <columns>
+            <TableColumn fx:id="vmidCol" prefWidth="75.0" text="ID" />
+            <!--<TableColumn fx:id="userIdCol" prefWidth="75.0" text="User ID" />-->
+            <TableColumn fx:id="mipsCol" prefWidth="75.0" text="MIPS" />
+            <TableColumn fx:id="ramCol" prefWidth="75.0" text="Ram" />
+            <TableColumn fx:id="pesNumberCol" prefWidth="91.0" text="PEs Number" />
+            <TableColumn fx:id="bwCol" prefWidth="59.0" text="BW" />
+            <TableColumn fx:id="sizeCol" prefWidth="59.0" text="Size" />
+            <TableColumn fx:id="vmmCol" prefWidth="82.0" text="Vmm" />
+            <!--<TableColumn fx:id="cloudletSchedulerCol" prefWidth="114.0" text="CloudletScheduler" />-->
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

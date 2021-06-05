@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cloudtp1.controllers.ShowHostsController">
+    
+      <children>
+      <TableView fx:id="table_hosts" layoutX="-2.0" layoutY="86.0" prefHeight="200.0" prefWidth="724.0">
+        <columns>
+            <TableColumn fx:id="idCol" prefWidth="67.0" text="ID" />
+            <TableColumn fx:id="lengthCol" prefWidth="83.0" text="Length" />
+            <TableColumn fx:id="pesNumberCol" prefWidth="91.0" text="PEs Number" />
+            <TableColumn fx:id="fileSizeCol" prefWidth="98.39996337890625" text="File Size" />
+            <TableColumn fx:id="outputCol" prefWidth="101.60003662109375" text="Output Size" />
+            <TableColumn fx:id="cpuCol" prefWidth="84.00006103515625" text="Cpu" />
+            <TableColumn fx:id="ramCol" prefWidth="91.20001220703125" text="Ram" />
+            <TableColumn fx:id="bwCol" prefWidth="107.199951171875" text="Bw" />
+        </columns>
+      </TableView>
+   </children>
+    
+</AnchorPane>

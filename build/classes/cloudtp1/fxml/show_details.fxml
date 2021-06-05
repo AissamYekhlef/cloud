@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cloudtp1.controllers.ShowDetailsController">
+   <children>
+      <JFXButton buttonType="RAISED" contentDisplay="CENTER" defaultButton="true" lineSpacing="3.0" onAction="#showVMs" ripplerFill="#0dc606" text="Show VMs" textAlignment="CENTER" textFill="#e80505">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="5.0" />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" contentDisplay="CENTER" defaultButton="true" lineSpacing="3.0" onAction="#showHosts" ripplerFill="#abe455" text="Show Hosts" textAlignment="CENTER" textFill="#e80505">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="5.0" />
+         </opaqueInsets>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" contentDisplay="CENTER" defaultButton="true" lineSpacing="3.0" onAction="#showCloudlets" text="Show Cloudlets" textAlignment="CENTER" textFill="#e80505">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="5.0" />
+         </opaqueInsets>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" contentDisplay="CENTER" defaultButton="true" lineSpacing="3.0" onAction="#showDCC" text="Show Datacenter Caracteristics" textAlignment="CENTER" textFill="#e80505">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="5.0" />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </JFXButton>
+      <Button lineSpacing="10.0" mnemonicParsing="false" onAction="#startSim" prefHeight="70.0" prefWidth="235.0" text="Start Simulation">
+         <opaqueInsets>
+            <Insets top="10.0" />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets top="30.0" />
+         </VBox.margin></Button>
+   </children>
+</VBox>
